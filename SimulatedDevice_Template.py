@@ -7,7 +7,7 @@ import time
 
 from azure.iot.device import IoTHubDeviceClient, Message
 
-CONNECTION_STRING ="HostName=demotesting.azure-devices.net;DeviceId=demodevice;SharedAccessKey=qDs1eneb9rzmCBD/6e52/2yZ/ODE8PJXPgTzT7f2qa4="
+CONNECTION_STRING =""
 MSG_TXT='{{"FieldId":"{FieldId}","Date":{Date},"GatewayId":"{GatewayId}","DeviceId":"{DeviceId}"}}'
  
 def iothub_client_init():
